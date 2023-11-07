@@ -1,0 +1,86 @@
+/* Styles for La Birrieria - Authentic Mexican Cuisine */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbf3;
+  color: #5c3d2f;
+  line-height: 1.6;
+}
+
+.birrieria-header {
+  background-color: #e95b4c;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.birrieria-header h1 {
+  margin: 0;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+.birrieria-header p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.intro-section {
+  background-image: url("https://images.unsplash.com/photo-1533978338161-770c9ab1351f");
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 5px solid #e95b4c;
+  margin-bottom: 30px;
+}
+
+.menu-section {
+  border: 5px solid #e95b4c;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.menu-section figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.menu-section li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.specials-section, .contact-section, .reservation-section, .booking-section {
+  background-color: #e95b4c;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.reservation-section, .booking-section {
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.reservation-section:hover, .booking-section:hover {
+  background-color: #fff;
+  color: #e95b4c;
+}
